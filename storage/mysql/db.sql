@@ -65,6 +65,7 @@ CREATE TABLE registro_detalles(
 );
 
 CREATE TABLE edicion(
+    edicion_id INT PRIMARY KEY AUTO_INCREMENT,
     libro_id INT,
     nombre VARCHAR(20),
     valor FLOAT,
